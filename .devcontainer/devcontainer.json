@@ -1,0 +1,25 @@
+{
+    "name": "Java Docker Dev Container",
+    "image": "eclipse-temurin:21-jdk",
+    "context": "..",
+    "workspaceFolder": "/workspace",
+    "runArgs": [
+        "--network",
+        "host"
+    ],
+    "settings": {
+        "java.home": "/opt/java/openjdk",
+        "java.configuration.runtimes": [
+            {
+                "name": "Java 21",
+                "path": "/opt/java/openjdk"
+            }
+        ]
+    },
+    "extensions": [
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-dependency",
+        "vscjava.vscode-java-test",
+        "redhat.java"
+    ]
+}
