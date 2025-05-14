@@ -1,0 +1,1 @@
+- Para rodar o projeto é necesário rodar o comando docker-compose up --build
